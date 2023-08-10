@@ -16,6 +16,8 @@ calligraplan
 cantor
 cdrdao
 cdrtools
+cups
+cups-filters
 dash
 dconf-editor
 digikam
@@ -51,6 +53,7 @@ gparted
 gpm
 granatier
 grantlee-editor
+gutenprint
 hexchat
 hplip
 ibus-anthy
@@ -183,6 +186,9 @@ pavucontrol
 picmi
 pidgin
 pim-sieve-editor
+print-manager
+pycups
+python-sane
 rocs
 rxvt-unicode
 seamonkey
@@ -191,6 +197,7 @@ skanpage
 soma
 ssr
 step
+system-config-printer
 tcsh
 tmux
 tokodon
@@ -214,6 +221,7 @@ xf86-video-s3virge
 xf86-video-savage
 xf86-video-trident
 xine-ui
+xkbprint
 xmms
 xpaint
 xpdf
