@@ -1,6 +1,8 @@
 MPlayer
 NetworkManager-openvpn
 QtAV
+akonadi-calendar
+akonadi-calendar-tools
 akonadi-import-wizard
 akonadiconsole
 akregator
@@ -11,6 +13,7 @@ audacious-plugins
 blinken
 bomber
 bovo
+calendarsupport
 calligra
 calligraplan
 cantor
@@ -27,6 +30,7 @@ dvdauthor
 ed
 elilo
 elvis
+eventviews
 falkon
 fcitx5
 fcitx5-anthy
@@ -63,6 +67,7 @@ ibus-libpinyin
 ibus-m17n
 ibus-table
 ibus-unikey
+incidenceeditor
 irssi
 itinerary
 jed
@@ -85,6 +90,7 @@ kbounce
 kbreakout
 kbruch
 kcolorchooser
+kde-dev-utils
 kdenlive
 kdepim-addons
 kdepim-runtime
@@ -100,6 +106,7 @@ kgeography
 kgoldrunner
 khangman
 khelpcenter
+kid3
 kig
 kigo
 kile
@@ -115,6 +122,8 @@ klines
 kmag
 kmahjongg
 kmail
+kmail-account-wizard
+kmailtransport
 kmbox
 kmines
 kmix
@@ -166,12 +175,14 @@ latte-dock
 libburn
 libime
 libksane
+libksieve
 lilo
 lokalize
 lskat
 mailcommon
 marble
 mbox-importer
+messagelib
 minuet
 mlt
 mozilla-thunderbird
@@ -185,7 +196,9 @@ parley
 pavucontrol
 picmi
 pidgin
+pim-data-exporter
 pim-sieve-editor
+plasma-sdk
 print-manager
 pycups
 python-sane
@@ -197,6 +210,7 @@ skanpage
 soma
 ssr
 step
+sweeper
 system-config-printer
 tcsh
 tmux

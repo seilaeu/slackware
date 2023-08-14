@@ -1,0 +1,42 @@
+--- ./src2pkg.setup.orig	2013-11-26 16:51:36.000000000 +0100
++++ ./src2pkg.setup	2021-11-20 17:18:43.462480000 +0100
+@@ -621,6 +621,7 @@
+ ### make the library
+ cd $SRC_DIR
+ cd libsentry-$LIBSENTRY_VERSION ;
++patch -p1 < /usr/src/src2pkg/src2pkg-helpers/libsentry-0.7.2_glibc-2.23.patch
+ echo -n $BLUE"Creating libsentry - "$NORMAL
+ make &> /dev/null
+ if [[ $? -eq 0 ]] ; then
+--- /dev/null	2021-11-20 16:13:07.485000000 +0100
++++ ./libsentry-0.7.2_glibc-2.23.patch	2021-11-20 10:13:42.593387243 +0100
+@@ -0,0 +1,29 @@
++diff -Naur libsentry-0.7.2.orig/libsentry.c libsentry-0.7.2/libsentry.c
++--- libsentry-0.7.2.orig/libsentry.c	2012-02-29 15:37:05.000000000 +0100
+++++ libsentry-0.7.2/libsentry.c	2021-11-20 10:12:49.493387243 +0100
++@@ -51,6 +51,25 @@
++ #include <dlfcn.h>
++ #include <dirent.h>
++ 
+++#ifndef _STAT_VER
+++#if defined (__aarch64__)
+++#define _STAT_VER 0
+++#elif defined (__x86_64__)
+++#define _STAT_VER 1
+++#else
+++#define _STAT_VER 3
+++#endif
+++#endif
+++#ifndef _MKNOD_VER
+++#if defined (__aarch64__)
+++#define _MKNOD_VER 0
+++#elif defined (__x86_64__)
+++#define _MKNOD_VER 0
+++#else
+++#define _MKNOD_VER 1
+++#endif
+++#endif
+++
++ /* There's no d_off on GNU/kFreeBSD */
++ #if defined(__FreeBSD_kernel__)
++ #define D_OFF(X) (-1)
