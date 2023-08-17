@@ -60,6 +60,7 @@ grantlee-editor
 gutenprint
 hexchat
 hplip
+httpd
 ibus-anthy
 ibus-hangul
 ibus-kkc
@@ -194,6 +195,7 @@ okteta
 palapeli
 parley
 pavucontrol
+php
 picmi
 pidgin
 pim-data-exporter
@@ -246,4 +248,3 @@ yakuake
 zanshin
 zd1211-firmware
 zsh
-httpd
