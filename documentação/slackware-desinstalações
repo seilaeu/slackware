@@ -46,7 +46,9 @@ fcitx5-table-extra
 fcitx5-table-other
 fcitx5-theme-breeze
 fcitx5-unikey
+futuresql
 geeqie
+getmail
 gftp
 ghostwriter
 gnome-keyring
@@ -147,6 +149,8 @@ konversation
 kopete
 korganizer
 kpat
+kquickimageeditor
+krb5
 krdc
 krename
 kreversi
@@ -183,9 +187,11 @@ lskat
 mailcommon
 marble
 mbox-importer
+merkuro
 messagelib
 minuet
 mlt
+motif
 mozilla-thunderbird
 mutt
 nmap
@@ -217,6 +223,7 @@ system-config-printer
 tcsh
 tmux
 tokodon
+twm
 vim-gvim
 wacomtablet
 wireguard-tools
@@ -251,4 +258,3 @@ yakuake
 zanshin
 zd1211-firmware
 zsh
-krb5
