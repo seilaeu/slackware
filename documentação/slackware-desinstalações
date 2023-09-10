@@ -210,6 +210,7 @@ plasma-sdk
 print-manager
 pycups
 python-sane
+qpdf
 rocs
 rxvt-unicode
 seamonkey
